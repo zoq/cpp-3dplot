@@ -6,7 +6,7 @@
 #include <string>
 
 int Plot3D(const std::string& x,
-           const std:;string& y,
+           const std::string& y,
            const std::string& z,
            const std::string& label,
            const std::string& xAxisLabel,
