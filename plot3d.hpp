@@ -5,7 +5,7 @@
 #include <Python.h>
 #include <string>
 
-int 3DPlot(const std::string& x,
+int Plot3D(const std::string& x,
            const std:;string& y,
            const std::string& z,
            const std::string& label,
@@ -25,7 +25,7 @@ int 3DPlot(const std::string& x,
     PyRun_SimpleString("import sys");
     PyRun_SimpleString("sys.path.append(\".\")");
     PyRun_SimpleString("sys.path.append(\"/srv/conda/envs/notebook/include/\")");
-    pName = PyUnicode_DecodeFSDefault("3dplot");
+    pName = PyUnicode_DecodeFSDefault("plot3d");
 
     pModule = PyImport_Import(pName);
     Py_DECREF(pName);
