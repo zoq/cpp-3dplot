@@ -1,5 +1,5 @@
-#ifndef 3D_PLOT_CPP
-#define 3D_PLOT_CPP
+#ifndef PLOT_3D_HPP
+#define PLOT_3D_HPP
 
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
